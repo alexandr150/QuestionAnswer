@@ -1,0 +1,139 @@
+@font-face {
+    font-family: GothamPro;
+    src: url("../fonts/GothamPro.ttf");
+}
+
+body {
+    font-family: GothamPro;
+}
+
+.questions-container {
+    overflow: auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url("../img/bottom-white-block.svg") bottom/ 100% 110px no-repeat fixed,
+                url("../img/dots.svg") left 100% top 35% no-repeat fixed,
+                url("../img/dots.svg") left 0 top 80% no-repeat fixed,
+    #F3F5FE;
+
+}
+
+.basic-scroller-container {
+    overflow-y: scroll;
+    height: calc(100% - 75px);
+}
+
+.basic-white-top-block {
+    background: url("../img/top-white-block.svg") top/ 100% 135px no-repeat;
+
+}
+
+.basic-questions-icon-back {
+    margin-top: 35px;
+    margin-left: 8%;
+    display: inline-block;
+
+}
+
+.basic-questions-icon-notify {
+    margin-left: 8%;
+    display: inline-block;
+}
+
+.basic-user-profile {
+    line-height: normal;
+    color: #171D35;
+    text-align: center;
+    margin-top: -65px;
+}
+
+.basic-arc {
+    margin-top: 20px;
+    height: 65px;
+}
+
+.basic-user-photo {
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin: -51px auto auto;
+    box-shadow: 0 4px 40px #D9D9FB;
+    border-radius: 50%; /* Радиус скругления */
+}
+
+
+.basic-user-status {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.basic-user-name {
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+
+.questions-rating-block {
+    margin-top: -10px;
+
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+    background-image: url("../img/rating-bg.svg");
+    background-position: 50%;
+    background-size: 134px 36px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.rating-text-grey {
+    color: #BFBBCA;
+}
+
+.rating-text-blue {
+    color: #623CEA;
+}
+
+.questions-list-questions {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+.toolbar-button {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    bottom: 25px;
+}
+
+.questions-button {
+    left: calc(15% - 13px);
+}
+
+.profile-button {
+    width: 24px;
+    left: calc(32% - 12px);
+}
+
+.search-button {
+    left: calc(67% - 13px);
+}
+
+.filter-button {
+    left: calc(85% - 13px);
+}
+
+.add-question-button {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    bottom: 35px;
+    left: calc(50% - 32px);
+}

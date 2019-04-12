@@ -1,0 +1,52 @@
+.answer-item-container {
+    height: auto;
+    width: 90%;
+    background: #FFFFFF;
+    /* Тень */
+    box-shadow: 0 4px 40px rgba(204, 197, 228, 0.4);
+    border-radius: 17px;
+    margin: auto;
+    line-height: normal;
+}
+
+.answer-item-author-photo {
+    width: 67px;
+    height: 67px;
+    margin-top: 10px;
+    margin-left: 12px;
+    box-shadow: 0 4px 40px #D9D9FB;
+    border-radius: 50%; /* Радиус скругления */
+}
+
+.answer-item-author-status {
+    width: 75px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #BFBBCA;
+    margin-left: 9px;
+}
+
+.answer-item-author-name {
+    font-size: 14px;
+    color: #BFBBCA;
+    margin-top: -120px;
+    margin-left: 95px;
+}
+
+.answer-item-date {
+    font-size: 14px;
+    color: #BFBBCA;
+    text-align: right;
+    margin-right: 24px;
+    margin-top: -32px;
+}
+
+.answer-item-answer {
+    margin-left: 95px;
+    margin-right: calc(5% + 10px);
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #171D35;
+}

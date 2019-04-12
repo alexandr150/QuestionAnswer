@@ -1,0 +1,36 @@
+.search-popup-container {
+    position: fixed;
+    top: calc(100% - 180px);
+    left: 5%;
+    width: 90%;
+    box-shadow: 0px 4px 40px rgba(204, 197, 228, 0.4);
+}
+
+
+.search-popup-input {
+    height: 62px;
+    width: 70%;
+    background: #FFFFFF;
+    /* Тень */
+    box-shadow: 0 4px 40px rgba(204, 197, 228, 0.4);
+    border-radius: 64px;
+    border: 0;
+
+    top: 90%;
+
+    font-size: 15px;
+    line-height: 19px;
+    color: #BFBBCA;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+.search-popup-icon {
+    position: absolute;
+    z-index: 10001;
+    width: 24px;
+    height: 24px;
+    left: 85%;
+    top: calc(35%);
+
+}

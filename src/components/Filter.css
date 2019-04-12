@@ -1,0 +1,80 @@
+.basic-component-container {
+    overflow: auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url("../img/bottom-white-block.svg") bottom/ 100% 110px no-repeat fixed,
+    url("../img/dots.svg") left 100% top 35% no-repeat fixed,
+    url("../img/dots.svg") left 0 top 80% no-repeat fixed,
+    #F3F5FE;
+}
+
+.basic-header-block {
+    line-height: normal;
+    background: url("../img/top-white-block.svg") top/ 100% 100px no-repeat;
+    color: #171D35;
+    height: 100px;
+}
+
+.basic-icon-back {
+    margin-top: 23px;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+.basic-icon-notify {
+    margin-top: 23px;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+.basic-header {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: -23px;
+    font-weight: bolder;
+    color: #171D35;
+}
+
+.filter-text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #171D35;
+
+    margin-top: 0;
+}
+
+.filter-filters-block {
+    margin-left: 5%;
+    width: 90%;
+    height: 394px;
+
+    background: #FFFFFF;
+    /* Тень */
+    box-shadow: 0 4px 40px rgba(204, 197, 228, 0.4);
+    border-radius: 17px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.filter-item {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.filter-item-checked {
+    text-align: right;
+    width: 23px;
+    height: 23px;
+    display: block;
+    margin-top: -36px;
+    margin-left: calc(90% - 13px);
+}
+
+
